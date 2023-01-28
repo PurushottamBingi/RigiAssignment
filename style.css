@@ -50,7 +50,7 @@
 }
  #host{
     margin-left: 220px; 
-    height: 600px;
+    height: 356px;
 }
 #text1{
     padding: 60px 20px 0px 150px;
@@ -60,7 +60,7 @@
  }
  #text2{
     padding: 5px 0px 0px 85px;
-    font-size: 33px;
+    /* font-size: 33px; */
     text-align: center;
     font-weight: 900;
     color: #fff;
@@ -144,6 +144,10 @@
     margin-left: 200px;
     font-weight: bolder;
  } 
+ #register_button:hover{
+    background-color: white;
+    cursor: pointer;
+ }
 .check_icon{
     margin: 0px 20px;
     
@@ -220,10 +224,6 @@
     padding: 20px;
     background-color: black;
 }
-/* .container{
-    display: flex;
-    flex-wrap: wrap;
-} */
 .sub-container{
     width: 100%;
     background-color: black;
@@ -261,7 +261,7 @@
     border: 5px solid white;
     justify-content: center;
     line-height: 50px;
-    height: 130px;
+    /* height: 130px; */
 
 }
 #heading_3{
@@ -274,7 +274,19 @@
 }
 
 
-@media screen  and (max-width: 356px){
+@media (max-width: 356px){
+    #register_button {
+        margin-left: 4px;
+    }
+    #logo {
+        height: 70px;
+        margin: 2px 0px 10px 43px;
+    }
+    #host {
+        margin-left: 100px;
+        height: 330px;
+        margin-top: 35px;
+    }
     #lines {
         display: flex;
         flex-direction: column;
@@ -293,9 +305,9 @@
         font-size: 6px;
     }
     #text1 {
-        padding: 23px 35px 0px 50px;
-        font-size: 18px;
-        margin-right: 68px;
+        padding: 23px 35px 0px 86px;
+        font-size: 15px;
+        margin-right: 47px;
     }
     .sub-container {
         width: 100%;
@@ -317,19 +329,39 @@
     }
     #text2 {
         font-size: 18px;
-        margin-top: -28px;
+        margin-top: -25px;
+        margin-left: -85px;
     }
+    
     #text3 {
         font-size: 13px;
-        margin-top: -26px;
+        margin-top: -14px;
+        margin-left: -139px;
+    }
+    #text4 {
+        font-size: 14px;
+        font-weight: 900;
+        margin-left: -167px;
+    }
+    #text5 {
+        padding-left: 35px;
+        color: rgb(247, 220, 111 );
+        font-size: 14px;
+        font-weight: 900;
+    }
+    .date {
+        display: flex;
+        justify-content: center;
+        margin-left: -24px;
+        margin-right: 0px;
     }
     #profession {
         font-size: 4px;
-        margin-left: 15px;
-        margin-top: -42px;
+        margin-left: -10px;
+        margin-top: -25px;
     }
     #profession2 {
-        padding-left: 72px;
+        padding-left:41px;
         font-size: 4px;
     }
     #register_button_2 {
@@ -350,10 +382,29 @@
         margin: 5px 95px 0px 93px;
         font-size: 10px;
     }
+    #text6 {
+        font-size: 13px;
+        font-weight: bolder;
+        margin-left: -7px;
+    }
+    .name {
+        margin-left: 14px;
+        margin-right: 8px;
+        padding: 11px;
+        font-size: 10px;
+    }
+    .count {
+        margin-bottom: -26px;
+        font-size: 28px;
+    }
+    #last_line {
+        color: white;
+        font-size: 10px;
+    }
     
 }
   /* Small devices (mobile) 0 to 600px */
-@media only screen and (max-width: 600px) {
+  @media screen and (min-width: 357px) and (max-width: 600px) {
     .container{
         display: flex;
         flex-wrap: wrap;
@@ -443,7 +494,7 @@
     }
   } 
   
-  /* Large devices (laptops/desktops) above 92px9 */
+  /* Large devices (laptops/desktops) above 992px */
   @media only screen and (min-width: 992px) {
     .container{
         display: flex;
