@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif  ;
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+/* Header */
+.header-tag{
+    max-width: 100%;
+    max-height: 10%;
+    display: flex;
+    background-color: rgb(247, 220, 111 );
+    padding:5px 10px;
+    justify-content: space-evenly;
+}
+#header-p{
+    color: white;
+    font-weight: 900;
+    font-size: 17px;
+    margin: 10px 10px 5px 20px;
+}
+#btn{
+    background-color: rgb(25,25,112);
+    color: white;
+    font-weight: 600;
+    border-radius: 50px; 
+    padding:2px 10px;
+    width: 200px;
+
+}
+
+
+
+/* Webinar section */
+ .webinar{
+    /* height:600px; */
+    display: flex;
+    background-color: black;
+    color:white;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.webinar_details{
+     color: white;
+    flex: 1;
+    line-height:45px;
+}
+ #host{
+    margin-left: 220px; 
+    height: 600px;
+}
+#text1{
+    padding: 60px 20px 0px 150px;
+    font-size: 25px;
+    color: rgb(247, 220, 111 );
+    font-weight: 600;
+ }
+ #text2{
+    padding: 5px 0px 0px 85px;
+    font-size: 33px;
+    text-align: center;
+    font-weight: 900;
+    color: #fff;
+    color: #fff;
+    text-shadow: 5px 3px 10px whitesmoke;
+   
+     
+ }
+ #text3{
+    padding-left: 140px;
+    font-size: 22px;
+    margin-top: 6px;
+     
+ }
+ #text4{
+    padding-left: 160px;
+    color: rgb(247, 220, 111 );
+    font-size: 24px;
+    font-weight: 900;
+ }
+#text5{
+    padding-left: 40px;
+    color: rgb(247, 220, 111 );
+    font-size: 24px;
+    font-weight: 900;
+}
+#text6{
+    font-size: 22px;
+    font-weight: bolder;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: xx-large;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 10px;
+}
+#span1{
+    margin-left: 20px;
+}
+#span2{
+    margin-left: 10px;
+}
+ h1{
+    font-size: 40px;
+ }
+ .date{
+    display:flex;
+    justify-content: center; 
+    margin-left: 40px;
+ }
+ .name {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    padding: 20px;
+}
+#profession{
+    font-size: 10px;
+    margin-left: 134px;
+    margin-top: -15px
+}
+#profession2{
+    padding-left: 50px;
+    font-size: 10px;
+
+}
+.count{
+    color:rgb(247, 220, 111 ) ;
+     word-spacing: 20px;
+     margin-bottom: -15px;
+}
+ #register_button{
+    background-color:rgb(247, 220, 111 );
+    padding: 6px;
+    margin-left: 200px;
+    font-weight: bolder;
+ } 
+.check_icon{
+    margin: 0px 20px;
+    
+}
+#video_icon{
+    background-color: blue;
+    color: blue;
+}
+/* Registration */
+.register{
+    display: flex;
+    flex-wrap: wrap;
+}
+.register_details{
+    flex: 1;
+    height: fit-content;
+    line-height: 50px;
+   
+}
+#image2{
+    max-height: 437px;
+    margin: 80px 20px 30px 100px;
+}
+#logo{
+    height: 70px;
+    margin: 30px 0px 10px 200px;
+} 
+#heading{
+    background-color: black;
+    color: white;
+    padding:8px;
+    margin-left: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+#lines{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 10px 10px 100px;
+}
+.para{
+    font-weight: 800;
+}
+#register_button_2{
+    background-color:rgb(247, 220, 111 );
+    padding: 10px 15px;
+    margin-left: 200px;
+    border-style: none;
+    font-weight: bolder;
+
+}
+
+.hr-line{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    height: 5px;
+ border:none;
+   background-color: blue;
+}
+
+#info{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    height: fit-content;
+    font-size: 30px;
+
+}
+.info_text{
+    line-height: 20px;
+    text-align:center;
+    padding: 20px;
+    background-color: black;
+}
+/* .container{
+    display: flex;
+    flex-wrap: wrap;
+} */
+.sub-container{
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 250px 250px ;
+    grid-template-rows: 250px 250px;
+    gap: 10px 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid_box{
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    color: black;
+    /* margin: 10px; */
+    align-items: center;
+    padding: 20px 20px;
+    text-align: center;
+}
+    .icons {
+        font-size: xxx-large;
+        color:rgb(247, 220, 111 )
+    }
+
+
+    #footer_section {
+        background-color: black;
+        padding: 8px;
+    }
+#footer{
+    background-color: rgb(25,25,112);
+    text-align: center;
+    border: 5px solid white;
+    justify-content: center;
+    line-height: 50px;
+    height: 130px;
+
+}
+#heading_3{
+    background-color:rgb(247, 220, 111 ) ;
+    margin: 16px 460px 0px 460px;
+    padding: 3px;
+}
+#last_line{
+    color: white;
+}
+
+
+
+  /* Small devices (mobile) 0 to 600px */
+@media only screen and (max-width: 600px) {
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .header-tag {
+        width: 97%;
+    }
+    #host {
+        margin-left: 104px;
+        height: 655px;
+        margin-top: 35px;
+    }
+    .webinar_details {
+        line-height: 60px;
+    }
+    #text1 {
+        padding: 40px 44px 0px 50px;
+        font-size: 26px;
+    }
+    #text2 {
+        padding: 0px 0px 0px 0px;
+        font-size: 34px;
+    }
+    #text3 {
+        padding-left: 25px;
+        font-size: 23px;
+    }
+    #text4 {
+        padding-left: 22px;}
+   #profession {
+            font-size: 10px;
+            margin-left: 3px;
+            margin-top: -30px;
+        }
+        .date { margin-left: 0px;}
+        #register_button {
+            font-weight: bold;
+            padding: 11px;
+            margin-left: 0px;
+            font-size: 16px;
+        }
+        #logo { margin: 20px 0px 10px 180px;}
+        #heading {margin-left: 0px;}
+        .info_text {line-height: 46px;}
+        #heading_3 {
+            margin: 14px 140px 0px 140px;
+            font-size: 22px;
+        }
+  }
+  
+  /* Medium devices (landscape tablets) 600 to 900px*/
+  @media only screen and (min-width: 600px) {
+    .container{
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: black;
+    }
+    .webinar{flex-wrap: nowrap;}
+    #host {
+        margin-left: 0px;
+        height: 531px;
+    }
+    #logo {
+        height: 80px;
+        margin: 30px 0px 10px 353px;
+    }
+    #heading{margin: 0px 30px ;}
+    .sub-container {
+        grid-template-columns: 230px 230px;
+        gap: 0px 16px;
+        margin-left: 8px;
+        margin-right: 7px;
+    }
+    #lines{ margin: 30px 250px;}
+    #register_button_2{margin-left: 331px;}
+    #image2 {
+        max-height: 552px;
+        margin: 53px 245px 45px 245px;
+    }
+    #text4 {padding-left: 90px;}
+
+     #profession{ margin-left: 44px;} 
+
+     #profession2 { padding-left: 21px;}
+     #heading_3 {
+        margin: 21px 327px 0px 327px;
+    }
+  } 
+  
+  /* Large devices (laptops/desktops) above 92px9 */
+  @media only screen and (min-width: 992px) {
+    .container{
+        display: flex;
+        flex-wrap: n0wrap;
+    }
+    #logo {
+        margin-left: 150px;
+    }
+    .register{ flex-wrap: nowrap;}
+    #image2 {
+        max-height: 453px;
+        margin: 110px 112px 36px 134px;
+    }
+    #lines {
+        margin: 48px 70px;
+    }
+    #register_button_2 {
+        margin-left: 155px;
+       
+    }
+    .sub-container {
+        gap: 16px 84px;
+        margin-left: 6px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .sub-container {
+        gap: 39px 86px;
+    }
+    .grid_box {
+        height: 201px;
+        width: 222px;
+    }
+    #heading_3 {
+        margin: 17px 471px 0px 471px;
+    }
+    #register_button {
+        padding: 10px;
+        margin-left: 55px;
+    }
+    #heading_3{
+        background-color:rgb(247, 220, 111 ) ;
+        margin: 16px 460px 0px 460px;
+        padding: 3px;
+    }
+  }
